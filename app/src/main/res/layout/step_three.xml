@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/welcomeInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingLeft="@dimen/space20"
+            android:paddingRight="@dimen/space20">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NO HIDDEN CHARGES OR FEES"
+                android:textStyle="bold"
+                android:textSize="@dimen/txt_heading"
+                android:textColor="@color/textHeading"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/space5"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="We have a very small charge for non-Wonep calls to mobiles or landlines"
+                android:textStyle="normal"
+                android:textSize="@dimen/txt_paragraph"
+                android:textColor="@color/textParagraph"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/space5"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/welcomeInfo"
+        android:gravity="center"
+        android:padding="@dimen/space20">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/no_fees"/>
+    </LinearLayout>
+</RelativeLayout>

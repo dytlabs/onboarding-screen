@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#15B4F1</color>
+    <color name="colorPrimaryTrans">#C615B4F1</color>
+    <color name="dot_inactive">#3315B4F1</color>
+    <color name="textHeading">#5F5F5F</color>
+    <color name="textParagraph">#414141</color>
+</resources>

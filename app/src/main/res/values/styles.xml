@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+    <style name="ButtonBlue">
+        <item name="android:textSize">@dimen/txt_btn</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">@dimen/space20</item>
+        <item name="android:paddingRight">@dimen/space20</item>
+        <item name="android:background">@drawable/btn_blue_selector</item>
+    </style>
+    <style name="ButtonTransparent">
+        <item name="android:textSize">@dimen/txt_btn</item>
+        <item name="android:textColor">@color/textParagraph</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:paddingLeft">@dimen/space20</item>
+        <item name="android:paddingRight">@dimen/space20</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+</resources>
